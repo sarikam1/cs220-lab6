@@ -1,7 +1,4 @@
 language: c
-compiler: gcc
 
 script:
-   - gcc hello.c -o hello
-   -./hello
-  
+   - make hello
